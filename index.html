@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+<body>
+    <div class="nav">
+        <img class="logo" src="https://rogermooresmovienation.files.wordpress.com/2022/04/net.jpg" alt="">
+        <ul>
+            <li>Home</li>
+            <li>Tv Shows</li>
+            <li>Movies</li>
+            <li>New & Populer</li>
+        </ul>
+        <div class="left">
+            <i class="fa fa-search searchBtn" style="color:white;"></i>
+            <h4 style="color:white;" class="kids"  >kids</h4>
+            <i class="fa fa-bell searchBtn" style="color:white"></i>
+            <img class="avtr" src="http://zoeice.com/assets/img/uploads/profile.png" alt="">
+            <select name="" id="" class="options">
+                <option value=""></option>
+            </select>
+        </div>
+    </div>
+    <div class="banner">
+            <img class="image"  src="https://m.media-amazon.com/images/M/MV5BNWJjZmQwZjktZDY0OC00ZGRiLTgxZmQtNjY4OTA2MTQ1OWRmXkEyXkFqcGdeQXVyODQwMDcwNDY@._V1_.jpg" alt="">
+            <div class="bottom-left">
+                <h5 class="des">
+                    <h1 class="title"> <b>#8 in Tv shows today</b></h1>
+                    <br>
+                    Based on a Delhi gang rape case, this crime drama follows the Delhi Police investigation into the finding of the men who perpetrated the crime</h5>
+                <div class="buttons">
+                    <button class="playBtn"> <i class="fa fa-youtube-play"></i> play</button>
+                    <button class="infobtn"> <i class="fa fa-info" style="font-size:14px"></i> More info</button>
+                </div>
+                <!-- <h3 style="margin: top 2px;0px">Popular on Netflix</h3>  -->
+                <div class="popular">
+                    
+                
+                <div class="films">
+                    <div class="img"><img class="img" src="https://s.studiobinder.com/wp-content/uploads/2017/12/Movie-Poster-Template-Dark-with-Image.jpg?x81279"alt=""></div>
+                    <div class="img"><img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdjwrfg0SZb4Wg4wYzdAQXg7Nb2Vw4Y9gfp56NoPNF4Xa7Zmpyb7OvHgZZwF-h_QL3x00&usqp=CAU" alt=""></div>
+
+                    <div class="img"><img class="img" src="https://images.indianexpress.com/2021/04/akshay-1200-1.jpg" alt=""></div>
+
+                    <div class="img"><img class="img" src="https://images.news18.com/ibnlive/uploads/2022/08/delhi-crime.jpg" alt=""></div>
+
+                    <div class="img"><img class="img" src="https://filmfare.wwmindia.com/content/2021/jan/bollywood-upcoming-movies-radhe-1611325289.jpg" alt=""></div>
+                    <div class="img"><img class="img" src="https://pbs.twimg.com/media/ER1xlu3UUAAxyuz?format=jpg" alt="https://images.news18.com/ibnlive/uploads/2022/08/delhi-crime.jpg"></div>
+                    <div class="img"><img class="img"src="https://www.bollywoodhungama.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-02-at-5.26.35-PM.jpeg" alt=""></div>
+                    <div class="img"><img class="img" src="https://images.news18.com/ibnlive/uploads/2022/08/delhi-crime.jpg    " alt=""></div>
+                    <div class="img"><img class="img"src="https://www.bollywoodhungama.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-02-at-5.26.35-PM.jpeg" alt=""></div>
+                    <div class="img"><img class="img" src="https://images.news18.com/ibnlive/uploads/2022/08/delhi-crime.jpg    " alt=""></div>
+                </div>
+            </div>
+            </div> 
+            
+        </div>
+        <script>
+            fetch('https://api.themoviedb.org/3/movie/550?api_key=61f463dc9387af6cc3d60ea5e9251be2')
+                 .then((response) => response.json())
+        .then((data) => console.log(data));
+        </script>
+</body>
+</html>

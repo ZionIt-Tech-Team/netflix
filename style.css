@@ -1,0 +1,157 @@
+body{
+  background-color: black;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    /* background-color:black;  */
+}
+*{
+    margin: 0;
+    padding: 0% ;
+
+}
+
+.bottom-left {
+    position: absolute;
+    top: 50px;
+    left: 16px;
+    height: 600px;
+    width: 400px;
+
+   
+  }
+  .banner{
+    position: fixed;
+    text-align: center;
+    color: white; 
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  .des{
+    width: 500px;
+    margin-top: 200px;
+    padding-top: 50px;
+  }
+  /* .title{
+    margin-top: 200px;
+  } */
+  .playBtn{
+    height: 35px;
+    width: 100px;
+    
+    background: white;    
+}
+.infobtn{
+    height: 35px;
+    width: 100px;
+    background-color: transparent;
+    color: white;
+}
+.films{
+  display: flex;
+  margin-top: 30px;
+  /* width: 2500px; */
+ 
+}
+films::-webkit-scrollbar{
+  display: none;
+ 
+}
+.img{
+  width: 170px;
+  height: 120px;
+  margin-left: 10px;
+}
+.popular{
+
+}
+.playBtn:hover{
+  background:transparent;
+}
+.infobtn:hover{
+  background-color: whitesmoke;
+  color: black;
+}
+.logo{
+  width: 100px;
+  height: 70px;
+}
+.options{
+  display: flex;
+}
+ul{
+  list-style-type: none;
+  margin-top: 15px;
+}
+li{
+  display: inline;
+  color: white;
+  font-size: 22px;
+  padding-left: 10px;
+  
+}
+.left{
+  margin-left:38%;
+  display: flex;
+  background-color: black;
+}
+.searchBtn{
+  color: white;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.kids{
+  color: white;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.avtr{
+  width:30px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.options{
+  margin-top: 20px;
+  margin-left: 10px;  
+  background-color:black; 
+  height: 30px;
+  width:20px;
+  border: none;
+  color: white;
+}
+.popular{
+  overflow-y: scroll;
+  width: 1200px;
+}
+.popular::-webkit-scrollbar{
+  display: none;
+  
+}
+@media only screen and (max-width: 400px) {
+
+    .bottom-left {
+      position: absolute;
+      left: 16px;
+      height: 100%;
+      width: 252px;
+  }
+  .left{
+    margin-left:-8%;
+    display: flex;
+    background-color: black;
+  }
+  ul{
+    list-style-type: none;
+    margin-top: 15px;
+  }
+  li{
+    display: inline;
+    color: white;   
+  }
+ 
+
+}
